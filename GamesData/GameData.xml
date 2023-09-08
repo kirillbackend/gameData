@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GamesData</name>
+    </assembly>
+    <members>
+        <member name="M:GamesData.Controllers.GamesController.PostGame(GameBlocApi.Models.Entity.Game,GameBlocApi.Services.Interface.IAddGame)">
+            <summary>
+            Добавляет новую игру
+            </summary>
+            <param name="game"></param>
+            <param name="addGameService"></param>
+            <returns> Статус обработки данных </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesController.DeleteGame(System.Int32,GameBlocApi.Services.Interface.IDeleteGame)">
+            <summary>
+            Удаляет игру
+            </summary>
+            <param name="id"> Id удаляемой игры </param>
+            <param name="deleteGameServise"> Сервис удаления </param>
+            <returns> Статус обработки данных </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesController.PatchGame(GameBlocApi.Models.Entity.Game,GamesData.Services.Interface.IPatchGame)">
+            <summary>
+            Обновление игры 
+            </summary>
+            <param name="game"> данные игры </param>
+            <param name="patchGameService"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(GameBlocApi.Services.Interface.IAllGame)">
+            <summary>
+            Выводит список всех Игр
+            </summary>
+            <param name="allGamesServise"></param>
+            <returns> Список всех игр </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(System.Int32,GamesData.Services.Interface.IOneGame)">
+            <summary>
+            Получение игры по Id
+            </summary>
+            <param name="id"> Id игры </param>
+            <param name="gameService"> Сервис для получения игры </param>
+            <returns> Игра по указанному Id </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(System.String,GamesData.Services.Filters.Interface.IFilterName)">
+            <summary>
+            Получение всех игр отфилтрованнх по символам которые есть в названии
+            </summary>
+            <param name="name"> символы </param>
+            <param name="filterNameService"> фильтр по названию </param>
+            <returns> список игр по определенному названию </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(System.Int32,GamesData.Services.Filters.Interface.IYearRelease)">
+            <summary>
+            Получение всех игр отфилтрованнх по определенному году релиза
+            </summary>
+            <param name="yearRelease"> год релиза </param>
+            <param name="yearReleaseService"> фильт по году релиза </param>
+            <returns> список игр по определенному году </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(GamesData.Models.RatingParams,System.Int32,GamesData.Services.Filters.Interface.IRatingFilter)">
+            <summary>
+            Получение всех игр отфилтрованнх по рейтингу
+            </summary>
+            <param name="rating"> рейтинг игры </param>
+            <param name="ratingFilterService"> сервис фильтрации по рейтингу </param>
+            <returns> список игр по рейтингу </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(GamesData.Models.Platforms,GamesData.Services.Filters.Interface.IFilterPlatform)">
+            <summary>
+            Получение всех игр по определенной платформе
+            </summary>
+            <param name="platform"> платформа </param>
+            <param name="filterPlatformService"> сервис фильтрации по платформе </param>
+            <returns> список игр по платформе </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(System.String,GamesData.Services.Filters.Interface.IFilterDeveloper)">
+            <summary>
+            Получение всех игр по разработчику
+            </summary>
+            <param name="developer"> название разработчика </param>
+            <param name="filterDeveloperService"> сервис фильрации по разработчику </param>
+            <returns> список игр по разработчику </returns>
+        </member>
+        <member name="M:GamesData.Controllers.GamesFiltersController.GetGame(System.String,GamesData.Services.Filters.Interface.IFilterGenre)">
+            <summary>
+            Получение всех игр по жанру
+            </summary>
+            <param name="genre"> жанр игры </param>
+            <param name="filterGenreService"> сервис фильтрации по игровому жанру </param>
+            <returns> список игр по определенному жанру </returns>
+        </member>
+        <member name="T:GamesData.Migrations.initDB">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GamesData.Migrations.initDB1">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GamesData.Migrations.initDB12">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB12.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB12.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.initDB12.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GamesData.Migrations.UpdateTable">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.UpdateTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.UpdateTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GamesData.Migrations.UpdateTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GamesData.Services.Filters.FilterDeveloperService">
+            <summary>
+            Сервис для фильтрации по разработчику
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.FilterNameService">
+            <summary>
+            Сервис для фильтрации игр по названию
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.FilterPlatformService">
+            <summary>
+            Сервис для фильтрации по игровой платформе
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.FilterRatingService">
+            <summary>
+            Сервис для фильтрации по рейтингу
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.FilterYearReleaseService">
+            <summary>
+            Сервис для фильтрации по году релиза
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.Interface.IFilterDeveloper">
+            <summary>
+            Интерфейс для фильтрации по разработчику
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.Interface.IFilterName">
+            <summary>
+            Интерфейс для фильтрации по имени игры
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.Interface.IFilterPlatform">
+            <summary>
+            Интерфейс для филтрации по игровой платформе 
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.Interface.IRatingFilter">
+            <summary>
+            Интерфейс для фильтрации по рейтенгу игры
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Filters.Interface.IYearRelease">
+            <summary>
+            Интерфейс для фильтрации по году релиза
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Interface.IOneGame">
+            <summary>
+            Интерфейс для полученя игры по Id
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.Interface.IPatchGame">
+            <summary>
+            Интерфейс для обновления игры
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.OneGameService">
+            <summary>
+            Сервис для получения иры по Id
+            </summary>
+        </member>
+        <member name="T:GamesData.Services.PatchGameService">
+            <summary>
+            Сервис для обновленя игры
+            </summary>
+        </member>
+        <member name="T:GameBlocApi.Services.AddGameService">
+            <summary>
+            Сервис для добавления игры
+            </summary>
+        </member>
+        <member name="T:GameBlocApi.Services.AllGameService">
+            <summary>
+            Сервис для получения всех игр
+            </summary>
+        </member>
+        <member name="T:GameBlocApi.Services.DeleteGameService">
+            <summary>
+            Сервис для удаления игры по Id
+            </summary>
+        </member>
+        <member name="T:GameBlocApi.Services.Interface.IAddGame">
+            <summary>
+            Интерфейл для добавления игры
+            </summary>
+        </member>
+        <member name="T:GameBlocApi.Services.Interface.IAllGame">
+            <summary>
+            Интерфейс для получения всех игр
+            </summary>
+        </member>
+        <member name="T:GameBlocApi.Services.Interface.IDeleteGame">
+            <summary>
+            Интерфейс для удаленя игры по Id
+            </summary>
+        </member>
+    </members>
+</doc>
