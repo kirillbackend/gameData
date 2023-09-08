@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UvZ04SHsfpd2lyp7GqVO47WetKy4EILo5qP93Z6Fn/xxJp9Tg72BbWjvQkv1n/V28bIlHE4pQFhsWywZ0cjZ7w==",
+  "dgSpecHash": "4c6qG+mSy3u9CnFTmrXzNgP0VRgJGMazSpeaoS23wRJaqfQaOvsCARF4ZD/eqB7rzbrWikz2+6kEJ7ZQm5T8kg==",
   "success": true,
-  "projectFilePath": "E:\\Games\\GamesData\\GamesData\\GamesData.csproj",
+  "projectFilePath": "E:\\NetCoreProjects\\game\\gameData\\GamesData\\GamesData\\GamesData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zinch\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\zinch\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",

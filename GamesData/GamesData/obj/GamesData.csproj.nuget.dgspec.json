@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Games\\GamesData\\GamesData\\GamesData.csproj": {}
+    "E:\\NetCoreProjects\\game\\gameData\\GamesData\\GamesData\\GamesData.csproj": {}
   },
   "projects": {
-    "E:\\Games\\GamesData\\GamesData\\GamesData.csproj": {
+    "E:\\NetCoreProjects\\game\\gameData\\GamesData\\GamesData\\GamesData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Games\\GamesData\\GamesData\\GamesData.csproj",
+        "projectUniqueName": "E:\\NetCoreProjects\\game\\gameData\\GamesData\\GamesData\\GamesData.csproj",
         "projectName": "GamesData",
-        "projectPath": "E:\\Games\\GamesData\\GamesData\\GamesData.csproj",
+        "projectPath": "E:\\NetCoreProjects\\game\\gameData\\GamesData\\GamesData\\GamesData.csproj",
         "packagesPath": "C:\\Users\\zinch\\.nuget\\packages\\",
-        "outputPath": "E:\\Games\\GamesData\\GamesData\\obj\\",
+        "outputPath": "E:\\NetCoreProjects\\game\\gameData\\GamesData\\GamesData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
